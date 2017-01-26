@@ -1,0 +1,37 @@
+{
+  "name": "feathers-mongo-sockets-react-front",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "eslint": "^3.14.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jquery": "^3.1.1",
+    "less-plugin-autoprefix": "^1.5.1",
+    "less-plugin-clean-css": "^1.5.1",
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "feathers": "^2.0.3",
+    "feathers-client": "^1.9.0",
+    "promise-alert": "^0.1.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "react-router": "^3.0.2",
+    "react-router-redux": "^4.0.7",
+    "redux": "^3.6.0",
+    "socket.io-client": "^1.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "compile-less": "grunt compile-less",
+    "watch-less": "grunt watch"
+  }
+}
